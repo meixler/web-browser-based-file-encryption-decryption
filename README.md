@@ -1,6 +1,7 @@
 # Web Browser Based File Encryption / Decryption
 
-### The page for this project is hosted at https://www.meixler-tech.com/web-browser-based-file-encryption-decryption.html
+#### The page for this project is hosted at
+https://www.meixler-tech.com/web-browser-based-file-encryption-decryption.html
 
 Encrypt a file using a password, then use the same password later to decrypt the file.
 
