@@ -1,6 +1,6 @@
 # Web Browser Based File Encryption / Decryption
 
-#### The page for this project is hosted at
+#### The html document for this project is hosted at  
 https://www.meixler-tech.com/web-browser-based-file-encryption-decryption.html
 
 Encrypt a file using a password, then use the same password later to decrypt the file.
@@ -15,10 +15,10 @@ All cryptography operations are implemented using using the Web Crypto API. File
 
 openssl compatibility
 ---------------------
-Files encrypted using this page can be decrypted using openssl using the following command:
+Files encrypted using this page can be decrypted using openssl using the following command:  
 openssl aes-256-cbc -d -salt -pbkdf2 -iter 10000 -in encryptedfilename -out plaintextfilename
 
-Files encrypted using the following openssl command can be decrypted using this page:
+Files encrypted using the following openssl command can be decrypted using this page:  
 openssl aes-256-cbc -e -salt -pbkdf2 -iter 10000 -in plaintextfilename -out encryptedfilename
 
 Running this page offline
