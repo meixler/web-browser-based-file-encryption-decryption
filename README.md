@@ -5,7 +5,7 @@ Encrypt a file using a password, then use the same password later to decrypt the
 
 IMPORTANT: The same password that was used to encrypt the file must be used to decrypt the file later. If you loose or forget the password, it cannot be recovered! 
 
-The current version of this page is hosted at https://www.meixler-tech.com/web-browser-based-file-encryption-decryption.html
+The current version of the operating page for this project is hosted at https://www.meixler-tech.com/web-browser-based-file-encryption-decryption.html
 
 This page uses javascript running within your web browser to encrypt and decrypt files. Your files and passphrase do not leave your web browser during the process. This can be independently verified by reviewing the source code for this page, or by monitoring your web browser's networking activity during operation of this page. This page can also be downloaded and run locally on your system offline. The encryption used by this page is compatible with openssl.
 
