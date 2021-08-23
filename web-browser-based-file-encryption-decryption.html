@@ -194,42 +194,51 @@
 			</p>
 
 			<h3>Operation and privacy</h3>
-			<p>
-				This page uses javascript running within your web browser to encrypt and decrypt files.  Your files and password do not leave your web browser during the process.
-				This can be independently verified by reviewing the source code for this page, or by monitoring your web browser's <a href='https://developer.mozilla.org/en-US/docs/Tools/Network_Monitor'>networking activity</a> during operation of this page.  This page can also be downloaded and run locally on your system offline.				
+			<p>			
+			This page uses javascript running within your web browser to encrypt and decrypt files client-side, in-browser. 
+			This page makes no network connections during this process, to ensure that your files and keys never leave the web browser during the process.
+			This can be independently verified by reviewing the source code for this page, or by monitoring your web browser's <a href=https://developer.mozilla.org/en-US/docs/Tools/Network_Monitor>networking activity</a> during operation of this page. 
+			This page can also be downloaded and run locally on your system offline.  
 			</p>
 
 			<h3>Cryptography</h3>
 			<p>
-				All cryptography operations are implemented using using the <a href='https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API'>Web Crypto API</a>.  
-				Files are encrypted using AES-CBC 256-bit symmetric encryption.  The encryption key is derived from the password and a random salt using PBKDF2 derivation with 10000 iterations of SHA256 hashing.
+			All client-side cryptography is implemented using the <a href='https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API'>Web Crypto API</a>.  
+			Files are encrypted using AES-CBC 256-bit symmetric encryption.  The encryption key is derived from the password and a random salt using PBKDF2 derivation with 10000 iterations of SHA256 hashing.
 			</p>	
 
 			<h3>Compatibility with openssl</h3>
 			<p>	
-				The encryption used by this page is compatible with <a href='https://www.openssl.org/docs/man1.1.1/man1/openssl-enc.html'>openssl</a>.<BR>
-				<BR>
-				Files encrypted using this page can be decrypted using openssl using the following command:<BR>
-				<span class='black10pointcourier'>openssl aes-256-cbc -d -salt -pbkdf2 -iter 10000 -in <i>encryptedfilename</i> -out <i>plaintextfilename</i></span><BR>
-				<BR>
-				Files encrypted using the following openssl command can be decrypted using this page:<BR>
-				<span class='black10pointcourier'>openssl aes-256-cbc -e -salt -pbkdf2 -iter 10000 -in <i>plaintextfilename</i> -out <i>encryptedfilename</i></span><BR>
+			The encryption used by this page is compatible with <a href='https://www.openssl.org/docs/man1.1.1/man1/openssl-enc.html'>openssl</a>.<BR>
+			<BR>
+			Files encrypted using this page can be decrypted using openssl using the following command:<BR>
+			<span class='black10pointcourier'>openssl aes-256-cbc -d -salt -pbkdf2 -iter 10000 -in <i>encryptedfilename</i> -out <i>plaintextfilename</i></span><BR>
+			<BR>
+			Files encrypted using the following openssl command can be decrypted using this page:<BR>
+			<span class='black10pointcourier'>openssl aes-256-cbc -e -salt -pbkdf2 -iter 10000 -in <i>plaintextfilename</i> -out <i>encryptedfilename</i></span><BR>
 			</p>	
 
 			<h3>Running this page offline</h3>
 			<p>
-				This web page is self-contained.  The page does not require any supporting files; all javascript and css for this page is contained in the source code of this page.
-				To run this page locally on your system offline, simply save this page to your system as a .html file, then open the file from your system in your web browser (optionally with networking disabled).
+			This web page is self-contained. The page does not require any supporting files; all javascript and css for this page is contained in the source code of this page. 
+			To run this page locally on your system offline, simply save this page to your system as a .html file, then open the file from your system in your web browser (optionally with networking disabled). 			
+			</p>
+			
+			<h3>Verifying the integrity of this page</h3>
+			<p>
+			The expected SHA256 checksum hash of the .html file containing this page is posted at <a href=https://github.com/meixler/web-browser-based-file-encryption-decryption>https://github.com/meixler/web-browser-based-file-encryption-decryption</a>.
+			If loading this page from a web server, you can verify that the checksum hash of the .html file downloaded from the web server matches the expected checksum hash using the <a href=https://www.pageintegrity.net/>Page Integrity browser extension</a>.
+			If running this page offline, it is recommended that you verify that the checksum hash of the .html file matches the expected checksum hash before opening the file in your web browser.
 			</p>
 
 			<h3>License</h3>
 			<p>
-				This project is licensed under the <a href='https://www.gnu.org/licenses/gpl-3.0.en.html'>GPL-3.0</a> open source license.
+			This project is licensed under the <a href='https://www.gnu.org/licenses/gpl-3.0.en.html'>GPL-3.0</a> open source license.
 			</p>
 
 			<h3>GitHub</h3>
 			<p>
-				This project can be found on GitHub at <a href=https://github.com/meixler/web-browser-based-file-encryption-decryption>https://github.com/meixler/web-browser-based-file-encryption-decryption</a>.
+			This project can be found on GitHub at <a href=https://github.com/meixler/web-browser-based-file-encryption-decryption>https://github.com/meixler/web-browser-based-file-encryption-decryption</a>.
 			</p>
 			
 			<h3>Contact</h3>
