@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <title>Mgregchi | Hacking </title>
+
+        <!-- Font Awesome -->
+        <link
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+          rel="stylesheet"
+        />
+        <!-- Google Fonts -->
+        <link
+          href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+          rel="stylesheet"
+        />
+        <!-- MDB -->
+        <link
+          href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
+          rel="stylesheet"
+        />        
+    </head>
+    <body>
+                <section class="border p-4 text-center mb-4">
+                    <header>
+                    <!-- Navbar -->
+                    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                        <div class="container-fluid">
+                        <button
+                            class="navbar-toggler"
+                            type="button"
+                            data-mdb-toggle="collapse"
+                            data-mdb-target="#navbarExample01"
+                            aria-controls="navbarExample01"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <span class="navbar-toggler-icon">Menu</span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarExample01">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item active">
+                                <a class="nav-link" aria-current="page" href="#"
+                                >Home</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Files</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://github.com/Mgregchi/hacking-script/">Discussion</a>
+                            </li>
+                            <!-- Navbar dropdown -->
+                            <li class="nav-item dropdown">
+                              <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="navbarDropdown"
+                                role="button"
+                                data-mdb-toggle="dropdown"
+                                aria-expanded="false"
+                              >
+                                Social Clones
+                              </a>
+                              <!-- Dropdown menu -->
+                              <ul
+                                class="dropdown-menu"
+                                aria-labelledby="navbarDropdown"
+                              >
+                                <li><a class="dropdown-item" href="https://github.com/Mgregchi/hacking-script/gmail-clone">Gmail clone</a>
+                                <li>
+                                  <a class="dropdown-item" href="https://github.com/Mgregchi/hacking-script/facebook-clone">Facebook clone</a>
+                                </li>
+                                <li>
+                                  <a class="dropdown-item" href="https://github.com/Mgregchi/hacking-script/instagram-clone">Instagram clone</a>
+                                </li>
+                                <li>
+                                  <a class="dropdown-item" href="https://github.com/Mgregchi/hacking-script/twitter-clone">Twitter clone</a>
+                                </li>                                
+                                <li>
+                                  <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                  <a class="dropdown-item" href="#"
+                                    >Visual | Graphics designs</a
+                                  >
+                                </li>
+                              </ul>
+                            </li>                              
+                            </ul>
+                        </div>
+                        </div>
+                    </nav>
+                    <!-- Navbar -->
+
+                    <!-- Background image -->
+                    <div
+                        class="p-5 text-center bg-image"
+                        style="
+                        background-image: url('https://raw.githubusercontent.com/Mgregchi/hacking-script/main/hacked.jpg');
+                        height: 400px;
+                        "
+                    >
+                        <div
+                        class="mask"
+                        style="background-color: rgba(0, 0, 0, 0.6)"
+                        >
+                        <div
+                            class="d-flex justify-content-center align-items-center h-100"
+                        >
+                            <div class="text-white">
+                            <h1 class="mb-3">Ethical hacking resources and tutorial</h1>
+                            <h4 class="mb-3">Do something great ethically</h4>
+                            <a
+                                class="btn btn-outline-light btn-lg"
+                                    href="github.com/Mgregchi/hacking-script"
+                                role="button"
+                                >View on Github</a
+                            >
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- Background image -->
+                    </header>
+                </section>
+            </section>
+                <!--Section: Headers-->
+            <!-- MDB -->
+            <!-- MDB -->
+            <script
+              type="text/javascript"
+              src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"
+            ></script>            <!-- Custom scripts -->
+            <script type="text/javascript"></script>
+    </body>
+</html>
