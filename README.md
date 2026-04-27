@@ -40,8 +40,12 @@ The expected SHA256 checksum hash of the .html file containing the page is:
 
     c7398059dffd25fa8a9d81c570250887fba61dc4eafcfca42f9081196389ed05
 
-If loading the page from a web server, you can verify that the checksum hash of the .html file downloaded from the web server matches the expected checksum hash using the [Page Integrity browser extension](https://www.pageintegrity.net/).
 If running the page offline, it is recommended that you verify that the checksum hash of the .html file matches the expected checksum hash before opening the file in your web browser.
+
+## Related project
+
+[Web Browser Based Public-Key Encryption](https://github.com/meixler/web-browser-based-public-key-encryption) implements simple public-key cryptography using just your web browser.  
+Use your web browser to encrypt and decrypt files using public-key cryptography, in order to exchange confidential files with others through an insecure medium such as email, instant messaging, etc.
 
 ## Contributing
 
